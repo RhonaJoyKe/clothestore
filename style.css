@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    width:100%
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.06);
+    z-index: 999;
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #454545;
+    transition: 0.3s ease;
+}
+#navbar li a:hover {
+    color:#088178;
+
+}
+/* body{
+    background-color: aquamarine;
+} */
+.maincard{
+   
+    /* width:100%; */
+    display:flex;
+
+    flex-direction: row ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+img {
+    width:370px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 10px;
+}
+#button{
+    display: none;
+}
+/* .card{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+} */
+/* .details{
+    display: none;
+
+} */
